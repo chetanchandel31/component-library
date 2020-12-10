@@ -3,34 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Component Library</title>
+    <title>home | dummy portfolio</title>
+    <link rel='stylesheet' href='./styles.css'>
 </head>
 <body>
-    <h1>My component library</h1>
-    <p>I am making a library which will make all my projects look good.</p>
+    <nav class='navigation container'>
+        <div class='nav-brand'>WebDev</div>
+        <ul class='list-non-bullet nav-pills'>
+            <li class='list-item-inline'>
+                <a class='link link-active' href='./index.html'>home</a>
+            </li>
+            <li class='list-item-inline'>
+                <a class='link' href='./projects.html'>projects</a>
+            </li>
+            <li class='list-item-inline'>
+                <a class='link' href='./blogs.html'>blogs</a>
+            </li>
+        </ul>
+    </nav>
 
-    <hr>
+    <header class='hero'>
+        <img class='hero-img' src='./images/hero.svg' alt='an image'>
+        <h1 class='hero-heading'>aadarsh baalak,<span class='heading-inverted'> the web developer.</span></h1>
+    </header>
 
-    <h2>@typography</h2>
+    <section class='section ow'>
+        <div class='container container-center'>
+            <h1>technologies</h1>
+            <p>I'm familiar with HTML5, CSS3, Git, JavaScript, NodeJS, ReactJS and web hosting.</p>
+        </div>
+    </section>
 
-    <h1>biggest heading</h1>
-    <h2>second biggest heading</h2>
-    <p>free flowing text in paragraph and will wrap at the end.</p>
-    <small>relatively smaller text</small>
-    <hr>
+    <section class='section'>
+        <div class='container container-center'>
+            <h1>projects</h1>
+            <p>You can see my projects hosted online.</p>
+            <a href='/' class='link link-primary'>See Projects</a>
+        </div>
+    </section>
 
-    <h2>@containers</h2>
+    <section class='section ow'>
+        <div class='container container-center'>
+            <h1>blogs</h1>
+            <p>I like to document my journey by writing some technical and non-technical blogs.</p>
+            <a href='/' class='link link-primary'>Read blogs</a>
+        </div>
+    </section>
 
-    <h3>fluid container</h3>
-    <div>This is a fluid container and it will go till the end of the page.</div>
-
-    <h3>center container</h3>
-    <div>This is centered container and it goes till the specified width.</div>
-
-    <hr>
-
-    <h2>@links</h2>
-    <a href='/'>Primary Link</a>
-    <a href='/'>Secondary Link</a>
+    <footer class='footer'>
+        <div class='footer-header'>Contact me</div>
+        <ul class='social-links list-non-bullet'>
+            <li class='list-item-inline'>
+                <a class='link' href='/''>github</a>
+            </li>
+            <li class='list-item-inline'>
+                <a class='link' href='/''>twitter</a>
+            </li>
+            <li class='list-item-inline'>
+                <a class='link' href='/''>linkedin</a>
+            </li>
+        </ul>
+    </footer>
 </body>
 </html>
